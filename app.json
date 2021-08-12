@@ -1,12 +1,15 @@
 {
-  "name": "mobile-flashcards",
-  "displayName": "mobile-flashcards",
   "expo": {
-    "name": "mobile-flashcards",
-    "slug": "mobile-flashcards",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "name": "UdaciCards",
+    "slug": "udaciCards",
+    "version": "1.0",
+    "orientation": "portrait",
+    "description": "Create your own quizzes",
+    "ios": {
+      "bundleIdentifier": "org.udaciCards.exp"
+    },
+    "android": {
+      "package": "org.udaciCards.exp"
+    }
   }
 }
